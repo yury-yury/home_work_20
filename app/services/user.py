@@ -52,7 +52,7 @@ class UserService:
         """
         uid = data.get("id")
         user = self.get_one(uid)
-        user.name = data.get("name")
+        user.username = data.get("username")
         return self.dao.update(user)
 
     def delete(self, uid: int):
