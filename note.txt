@@ -1,0 +1,7 @@
+Регистрационные данные для зарегистрированных в базе данных пользователей:
+
+username		password		role
+
+oleg 			12345			user
+john			abc				admin
+alice			Alice			user
