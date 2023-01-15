@@ -1,0 +1,5 @@
+LINES_PER_PAGE = 3
+JWT_SECRET = 'random_secret'
+JWT_ALGORITHM = 'HS256'
+PWD_SALT = b'secret here'
+PWD_ITERATIONS = 100_000
